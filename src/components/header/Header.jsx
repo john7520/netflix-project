@@ -20,9 +20,9 @@ function Header() {
         </ul>
       </div>
       <div className='header-right'>
-        <SearchIcon />
-        <NotificationsNoneIcon />
-        <AccountBoxIcon />
+        <SearchIcon style={{marginRight:10}}/>
+        <NotificationsNoneIcon style={{marginRight:10}}/>
+        <AccountBoxIcon style={{marginRight:10}}/>
         <ArrowDropDownIcon />
         
       </div>
