@@ -8,10 +8,11 @@ function Footer() {
     <div className='footer-outer-container'>
       <div className='footer-data'>
         <div>
-          <FacebookOutlinedIcon />
-          <InstagramIcon />
-          <YouTubeIcon />
-          
+          <div className="social-media-icons">
+            <FacebookOutlinedIcon />
+            <InstagramIcon />
+            <YouTubeIcon />
+          </div>
           <ul>
             <li>Audio Description</li>
             <li>Invective Relations</li>
@@ -44,7 +45,7 @@ function Footer() {
         </div>
       </div>
 
-      <div>
+      <div className='copy-right'>
         <ul>
           <li><button>service code</button></li>
           <li>&copy; 2025 netflix.inc</li>
