@@ -1,0 +1,17 @@
+.footer-outer-container{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: hsl(0, 0%, 10%);
+  padding-right: 30px;
+  padding-left: 20px;
+  color: white;
+}
+.footer-data{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
