@@ -5,7 +5,7 @@
 //search people actor
 //https://api.themoviedb.org/3/search/person?api_key=${apiKey}&language=en-US&query=tom+hanks&page=1
 
-const apiKey = process.env.REACT_APP_API_KEY;
+const apiKey = import.meta.env.VITE_API_KEY;
 const baseUrl = "https://api.themoviedb.org/3/";
 
 const Links = {
@@ -25,5 +25,6 @@ const Links = {
   documentaries: `${baseUrl}movie?api_key=${apiKey}&with_genres=99`,
   
 }
+export default Links;
 
 
