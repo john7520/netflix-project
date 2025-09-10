@@ -25,18 +25,19 @@
   width: 110px;
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 10px;
-  border: 3px solid blueviolet;
+  border: none;
   color: white;
-  background: transparent;
+  background: hsl(0, 0%,55%);
   cursor: pointer;
 }
 .banner-button:hover,.play{
   border: none;
-  background-color: white;
+  background-color: hsl(0, 0%, 96%);
   color: hsl(0, 0%, 10%);
 }
 .play:hover{
-  border: 3px solid blueviolet;
+  border: none;
+  /* border: 3px solid blueviolet; */
   color: white;
-  background: transparent;
+  background: hsl(0, 0%, 55%);
 }
