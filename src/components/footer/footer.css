@@ -3,10 +3,6 @@
   padding: 0;
 }
 .footer-outer-container{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
   background-color: hsl(0, 0%, 10%);
   padding-right: 30px;
   padding-left: 100px;

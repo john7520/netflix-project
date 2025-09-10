@@ -5,13 +5,19 @@ import Banner from '../components/banner/Banner'
 
 function Home() {
   return (
-    <>
+    <div style={
+      {
+        display: "flex",
+        flexDirection:"column"
+      }
+    }>
       <Header />
       <Banner />
-      
+      <Banner />
+      <Banner />
       <Footer />
       
-    </>
+    </div>
   )
 }
 
