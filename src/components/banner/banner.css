@@ -1,0 +1,42 @@
+.banner-outer-container{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contents{
+  width: 310px;
+  margin-left: 30px;
+  color: hsl(0, 0%, 88%);
+}
+.contents h1{
+  color: white;
+  margin-bottom: 10px;
+}
+.handle-buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.banner-button{
+  padding: 10px;
+  font-size: 20px;
+  width: 110px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  border: 3px solid blueviolet;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+}
+.banner-button:hover,.play{
+  border: none;
+  background-color: white;
+  color: hsl(0, 0%, 10%);
+}
+.play:hover{
+  border: 3px solid blueviolet;
+  color: white;
+  background: transparent;
+}

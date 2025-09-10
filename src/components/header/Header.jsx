@@ -40,8 +40,8 @@ function Header() {
           <li>Browse My Languages</li>
         </ul>
       </div>
-      <div className='header-right'>
-        <SearchIcon style={{marginRight:10}}/>
+      <div  className='header-right'>
+        <SearchIcon on style={{marginRight:10}} />
         <NotificationsNoneIcon style={{marginRight:10}}/>
         <AccountBoxIcon style={{marginRight:10}}/>
         <ArrowDropDownIcon />

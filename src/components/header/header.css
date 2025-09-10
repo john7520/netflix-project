@@ -14,12 +14,12 @@
   padding-right: 16px;
   /* background-color: #333; */
   /* background-color: transparent; */
-  color: #f9f9f9;
+  color: hsl(0, 0%, 80%);
   
 }
 .header-left{
   width: 60%;
-  color: hsl(60, 20%, 94%);
+  color: hsl(0, 0%, 80%);
 }
 @media(max-width : 900px){
   .header-left{
@@ -32,4 +32,9 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.header-left li:hover{
+  color: hsl(0, 0%, 96%);
+}
+/* .header-right{
+  color: hsl(0, 0%, 96%);
+} */

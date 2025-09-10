@@ -13,8 +13,6 @@ function Home() {
     }>
       <Header />
       <Banner />
-      <Banner />
-      <Banner />
       <Footer />
       
     </div>
