@@ -24,9 +24,12 @@ A responsive Netflix clone built with Vite and React, featuring dynamic content 
 1. Clone or download the project files 
 2. Install dependencies:
 https://github.com/john7520/netflix-project.git
+
 cd netflix-project
+
 npm install
-npm run dev```
+
+npm run dev
 
 
 ## 🎬 Content Categories
@@ -61,3 +64,5 @@ This project is for educational purposes only. All content belongs to their resp
 Created by  Yohannes Wegayehu
 
 For questions or suggestions, please open an issue in this repository.
+
+click here 👉👉:https://github.com/john7520/netflix-project.git
