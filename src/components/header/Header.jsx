@@ -4,10 +4,13 @@ import NetflixLogo from "../../assets/NetflixLogo.png"
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import Menu from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 import "./header.css"
 function Header() {
   const [color, setColor] = useState("")
-  
+  const [open, setOpen] = useState(false)
+
   useEffect(() => {
     const  HandleScroll=()=> {
       let height = window.scrollY;
@@ -30,8 +33,9 @@ function Header() {
       backgroundColor : color
     }}>
       <div className='header-left'>
-        <ul>
-          <li><img className='logo' src={NetflixLogo} alt="" width={100}/></li>
+        <img className='logo' src={NetflixLogo} alt="" width={100}/>
+        <ul className={`nav-links ${open && "active"}`}>
+          
           <li>Home</li>
           <li>TvShows</li>
           <li>Movies</li>
@@ -41,11 +45,14 @@ function Header() {
         </ul>
       </div>
       <div  className='header-right'>
-        <SearchIcon on style={{marginRight:10}} />
-        <NotificationsNoneIcon style={{marginRight:10}}/>
-        <AccountBoxIcon style={{marginRight:10}}/>
+        <SearchIcon  />
+        <NotificationsNoneIcon />
+        <AccountBoxIcon />
         <ArrowDropDownIcon />
-        
+        <div className='menu' onClick={()=>setOpen(!open)}>
+          {open ? <CloseIcon /> : <Menu />}
+          
+        </div>
       </div>
     </div>
   )

@@ -7,7 +7,7 @@
   padding-right: 30px;
   padding-left: 100px;
   color: hsl(0, 0%, 70%);
-  padding: 10px 50px;
+  padding: 10px 30px;
 }
 .footer-data{
   /* width: 100%; */
@@ -15,6 +15,15 @@
   justify-content: space-between;
   align-items: center;
   
+}
+@media (max-width:650px){
+  .footer-data{
+    display: block;
+
+  }
+  .social-media-icons{
+    width: 250px;
+  }
 }
 
 .social-media-icons{
