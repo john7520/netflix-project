@@ -1,12 +1,62 @@
-# React + Vite
+# Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Netflix clone built with Vite and React, featuring dynamic content browsing with categorized sections, random banner selection, and trailer integration.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dynamic Hero Banner**: Randomly selects featured content on each page load
+- **Categorized Content**: Browse movies and shows by genre (Comedy, Horror, Action, etc.)
+- **Trailer Integration**: Watch trailers for all content directly on the site
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Modern UI**: Netflix-style interface with smooth animations
+- **Built with Vite**: Fast development and optimized builds
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React 18, JavaScript (ES6+)
+- **Build Tool**: Vite
+- **Styling**: CSS3 with Flexbox/Grid
+- **Video**: YouTube trailer integration
+- **State Management**: React Hooks (useState, useEffect)
+
+## 📦 Installation & Setup
+
+1. Clone or download the project files 
+2. Install dependencies:
+git
+npm install
+npm run dev
+
+
+## 🎬 Content Categories
+
+- Trending Now
+- Comedy
+- Horror
+- Action & Adventure
+- Documentaries
+- Romance e.t.c...
+  
+## 📱 Responsive Design
+
+The layout adapts to:
+- Desktop 
+- Tablet 
+- Mobile 
+
+## 🌐 Browser Support
+
+- Chrome (recommended)
+- Firefox
+- Safari
+- Edge
+
+## 📜 License
+
+This project is for educational purposes only. All content belongs to their respective owners.
+
+## 🙋‍♂️ Developer
+
+Created by  Yohannes Wegayehu
+
+For questions or suggestions, please open an issue in this repository.
